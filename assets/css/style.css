@@ -142,6 +142,30 @@ body {
 
 /*****Footer*****/
 
+.container__footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5em;
+    width: 100%;
+    height: 3em;
+    background-color: var(--cian-color);
+}
+
+.content__footer {
+    font-size: .8em;
+    text-align: center;
+    margin: auto 0;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.content__footer a{
+    color: var(--black-color);
+    font-size: 1em;
+    text-align: center;
+    margin: auto 0;
+    font-family: 'Montserrat' , sans-serif;
+}
+
 /*****Fim Footer*****/
 
 
