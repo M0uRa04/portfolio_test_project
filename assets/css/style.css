@@ -17,9 +17,131 @@
 }
 
 body {
-    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--black-color);
 }
 
-.container__content {
-    color: #fff;
+/*****Header*****/
+
+.container__navigation__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
+
+.link__navigation{
+    margin-top: 2em;
+    color: var(--cian-color);
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: .9em;
+}
+
+/*****Fim Header*****/
+
+/*****Main*****/
+
+.first__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.first__content__image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first__content__image img {
+    margin: 2.25em auto;
+    width: 16em;
+    height: 18em;
+}
+
+.first__content_title {
+    width: 80%;
+    color: var(--white-color);
+    font-family: 'Krona One', sans-serif;
+    margin: 0 auto;
+    line-height: 2em;
+    font-weight: 400;
+}
+
+.first__content_title h1 {
+    font-size: 1em;
+    letter-spacing: .1em;
+}
+
+
+.first__content_title strong {
+    color: var(--cian-color);
+    font-weight: 400;
+
+}
+
+.first__content_text p {
+    width: 80%;
+    font-family: 'Montserrat';
+    color: var(--white-color);
+    font-weight: 400;
+    margin: 1.25em auto;
+    font-size: 0.8em;
+    line-height: 1.45em;
+}
+
+.secondary__title {
+    color: var(--white-color);
+    font-family: 'Krona One', sans-serif ;
+    font-size: .9em;
+    line-height: 3.5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.secondary__content_btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    gap: 1.3em;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: .7em 2em;
+    margin: 0 auto;
+    width: 85%;
+    border: 1px solid var(--cian-color);
+    border-radius: 8px;
+}
+
+.btn a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn img {
+    width: 1.2em;
+}
+
+.btn:hover {
+    background-color: var(--dark-gray-color);
+}
+
+
+/*****Fim Main*****/
+
+/*****Footer*****/
+
+/*****Fim Footer*****/
+
+
