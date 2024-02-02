@@ -35,12 +35,16 @@ body {
     color: var(--cian-color);
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
-    font-size: .9em;
+    font-size: .9rem;
 }
 
 /*****Fim Header*****/
 
 /*****Main*****/
+
+main {
+    min-height: calc(100vh - 3em);
+}
 
 .first__content {
     display: flex;
@@ -72,7 +76,7 @@ body {
 }
 
 .first__content_title h1 {
-    font-size: 1em;
+    font-size: 1rem;
     letter-spacing: .1em;
 }
 
@@ -89,14 +93,14 @@ body {
     color: var(--white-color);
     font-weight: 400;
     margin: 1.25em auto;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     line-height: 1.45em;
 }
 
 .secondary__title {
     color: var(--white-color);
     font-family: 'Krona One', sans-serif ;
-    font-size: .9em;
+    font-size: .9rem;
     line-height: 3.5em;
     text-align: center;
     margin-bottom: 1em;
@@ -127,6 +131,7 @@ body {
 .btn a {
     color: white;
     font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s ease;
 }
 
 .btn img {
@@ -149,10 +154,11 @@ body {
     width: 100%;
     height: 3em;
     background-color: var(--cian-color);
+    
 }
 
 .content__footer {
-    font-size: .8em;
+    font-size: .8rem;
     text-align: center;
     margin: auto 0;
     font-family: 'Montserrat' , sans-serif;
@@ -160,12 +166,11 @@ body {
 
 .content__footer a{
     color: var(--black-color);
-    font-size: 1em;
+    font-size: 1rem;
     text-align: center;
     margin: auto 0;
     font-family: 'Montserrat' , sans-serif;
 }
 
 /*****Fim Footer*****/
-
 
